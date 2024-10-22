@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management System</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>School Management System</h1>
+        
+        <!-- Student Form -->
+        <div class="section">
+            <h2>Add New Student</h2>
+            <form id="studentForm">
+                <input type="text" id="studentName" placeholder="Student Name">
+                <input type="number" id="studentAge" placeholder="Age">
+                <button type="submit">Add Student</button>
+            </form>
+        </div>
+
+        <!-- Student List -->
+        <div class="section">
+            <h2>Student List</h2>
+            <ul id="studentList"></ul>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
