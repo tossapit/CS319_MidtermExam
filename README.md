@@ -1,3 +1,5 @@
+AI: Claude
+
 Part 1: Classes and Object-Oriented Programming
 การเขียนโปรแกรมเชิงวัตถุ (Object-Oriented Programming, OOP)
 สร้างคลาส Person และ Student ซึ่งมีคุณสมบัติ (properties) และเมธอด (methods) ใช้การสืบทอด (inheritance) โดยคลาส Student สืบทอดจาก Person
